@@ -9,7 +9,8 @@ pipeline{
               stage('maven build'){
                   steps{
                       script{
-		    	                sh '''
+	  	    	                sh '''
+	  cd pipeline-master				
           cd demo2-master
 	  cd demo1
           mvn clean install
