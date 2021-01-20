@@ -7,7 +7,7 @@ pipeline{
 			steps{
 				
 					sh '''
-          cd pipeline-master/demo2-master/demo1
+          cd pipeline-master/demo2-master
 
 	  cd demo1
           mvn clean install
