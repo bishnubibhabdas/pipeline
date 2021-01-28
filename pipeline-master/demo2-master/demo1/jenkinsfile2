@@ -21,7 +21,7 @@ pipeline{
                  
                  stage ('Check logs') {
                     steps {
-                        filterLogs ('WARNING', 3)
+                        filterLogs ('WARNING', 7)
                     }
                 }
 		
